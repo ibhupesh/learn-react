@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a = 10;
+        console.log(a);
+        const b =34;
+        console.log(b);
+
+        function hello(){
+            console.log("Hello");
+        }
+
+        let c = {a:23,b:78};
+        console.log(c);
+        
+        let d = {a:30, func: function myfunc(number){
+            console.log(number);
+        }};
+
+        document.addEventListener("click", function(){
+            alert("Clicked");
+            let b= confirm("Are you sure?");
+            console.log(b);
+        });
+
+        let myFunc = (number) => {
+            console.log(number + " from arrow function");
+        };
+
+        setTimeout(() => {
+            console.log("This will be printed after 10 seconds");
+        }, 10000);
+    </script>
+</head>
+<body>
+    Learning js
+</body>
+</html>
