@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# learn-react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Public experimental repository for learning React and JavaScript.
 
-## Available Scripts
+This repository is a personal, public playground where I experiment with React, modern JavaScript, and related libraries. It's intentionally lightweight and evolving — expect frequent commits, drafts, and experiments.
 
-In the project directory, you can run:
+## Status
 
-### `npm start`
+- **Public:** Yes — this is an open experimental repo.
+- **Purpose:** Learn and practice React & JavaScript concepts.
+- **Stability:** Experimental — not production-ready.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Goals
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Try new React patterns and hooks
+- Build small components and mini-projects
+- Practice tooling (ESLint, Prettier, bundling)
+- Learn testing and deployment basics
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Prerequisites: Node.js (LTS) and npm or Yarn.
 
-### `npm run build`
+Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+# or
+yarn
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run in development mode:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm start
+# or
+yarn start
+```
 
-### `npm run eject`
+Build for production:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm run build
+# or
+yarn build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Run tests:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm test
+# or
+yarn test
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure (high level)
 
-## Learn More
+- `src/` — source code (components, pages, styles)
+- `public/` — static assets
+- `README.md` — this file
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Notes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- This repository is for learning and sharing progress. Code may be incomplete, messy, or refactored frequently.
+- Feel free to open issues or PRs if you have suggestions, but expect experimental commits.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you'd like to contribute, open an issue or a pull request. Keep changes focused and well-documented.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This repo is public; unless otherwise specified, assume code is under the repository owner's default GitHub license. Add a `LICENSE` file if you want an explicit license.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you'd like, I can commit this change and push it to the remote repository for you.
